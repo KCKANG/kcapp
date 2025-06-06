@@ -1,0 +1,119 @@
+C:\Users\Mieux\Documents\python>C:\Users\Mieux\AppData\Roaming\Python\Python313\Scripts\pyinstaller.exe rrtctw.py --onefile --windowed --add-data "config.txt;."
+176 INFO: PyInstaller: 6.13.0, contrib hooks: 2025.4
+177 INFO: Python: 3.13.3
+185 INFO: Platform: Windows-10-10.0.19045-SP0
+186 INFO: Python environment: C:\Python313
+187 INFO: wrote C:\Users\Mieux\Documents\python\rrtctw.spec
+191 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages',
+ 'C:\\Python313\\python313.zip',
+ 'C:\\Python313\\DLLs',
+ 'C:\\Python313\\Lib',
+ 'C:\\Python313',
+ 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\win32',
+ 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\win32\\lib',
+ 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\Pythonwin',
+ 'C:\\Python313\\Lib\\site-packages',
+ 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\Mieux\\Documents\\python']
+491 INFO: Appending 'datas' from .spec
+492 INFO: checking Analysis
+524 INFO: Building because inputs changed
+524 INFO: Running Analysis Analysis-00.toc
+524 INFO: Target bytecode optimization level: 0
+525 INFO: Initializing module dependency graph...
+527 INFO: Initializing module graph hook caches...
+539 INFO: Analyzing modules for base_library.zip ...
+1813 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+3716 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+4861 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+5257 INFO: Caching module dependency graph...
+5289 INFO: Looking for Python shared library...
+5295 INFO: Using Python shared library: C:\Python313\python313.dll
+5295 INFO: Analyzing C:\Users\Mieux\Documents\python\rrtctw.py
+5302 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+5303 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+5531 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+5538 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+5641 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+5971 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+5972 INFO: SetuptoolsInfo: initializing cached setuptools info...
+9768 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+9937 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+10660 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+10841 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+11147 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11159 INFO: Processing standard module hook 'hook-packaging.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+11184 INFO: Processing standard module hook 'hook-pytz.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+11454 INFO: Processing standard module hook 'hook-pkg_resources.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+11779 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+11922 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+11946 INFO: Processing pre-safe-import-module hook 'hook-jaraco.text.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11947 INFO: Setuptools: 'jaraco.text' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.text'!
+11953 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+11965 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12056 INFO: Processing pre-safe-import-module hook 'hook-jaraco.functools.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12056 INFO: Setuptools: 'jaraco.functools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.functools'!
+12066 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12067 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+12400 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12401 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+12427 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+12428 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12429 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+12697 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12698 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+13402 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+13403 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+13616 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+13617 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+13620 INFO: Processing pre-safe-import-module hook 'hook-jaraco.context.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+13620 INFO: Setuptools: 'jaraco.context' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.context'!
+13629 INFO: Processing pre-safe-import-module hook 'hook-backports.tarfile.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+13630 INFO: Setuptools: 'backports.tarfile' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.backports.tarfile'!
+13721 INFO: Processing standard module hook 'hook-backports.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+13723 INFO: Processing pre-safe-import-module hook 'hook-platformdirs.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+13724 INFO: Setuptools: 'platformdirs' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.platformdirs'!
+13868 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+14477 INFO: Processing module hooks (post-graph stage)...
+14749 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+15213 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+15228 INFO: Performing binary vs. data reclassification (1540 entries)
+15363 INFO: Looking for ctypes DLLs
+15398 INFO: Analyzing run-time hooks ...
+15401 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+15403 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+15406 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+15408 INFO: Including run-time hook 'pyi_rth_pkgres.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+15413 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+15414 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Mieux\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+15449 INFO: Creating base_library.zip...
+15498 INFO: Looking for dynamic libraries
+15881 INFO: Extra DLL search directories (AddDllDirectory): []
+15881 INFO: Extra DLL search directories (PATH): []
+16307 INFO: Warnings written to C:\Users\Mieux\Documents\python\build\rrtctw\warn-rrtctw.txt
+16343 INFO: Graph cross-reference written to C:\Users\Mieux\Documents\python\build\rrtctw\xref-rrtctw.html
+16381 INFO: checking PYZ
+16385 INFO: Building because name changed
+16385 INFO: Building PYZ (ZlibArchive) C:\Users\Mieux\Documents\python\build\rrtctw\PYZ-00.pyz
+17049 INFO: Building PYZ (ZlibArchive) C:\Users\Mieux\Documents\python\build\rrtctw\PYZ-00.pyz completed successfully.
+17086 INFO: checking PKG
+17111 INFO: Building because name changed
+17111 INFO: Building PKG (CArchive) rrtctw.pkg
+20422 INFO: Building PKG (CArchive) rrtctw.pkg completed successfully.
+20452 INFO: Bootloader C:\Users\Mieux\AppData\Roaming\Python\Python313\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+20452 INFO: checking EXE
+20479 INFO: Building because name changed
+20480 INFO: Building EXE from EXE-00.toc
+20482 INFO: Copying bootloader EXE to C:\Users\Mieux\Documents\python\dist\rrtctw.exe
+20496 INFO: Copying icon to EXE
+20501 INFO: Copying 0 resources to EXE
+20501 INFO: Embedding manifest in EXE
+20536 INFO: Appending PKG archive to EXE
+20610 INFO: Fixing EXE headers
+21928 INFO: Building EXE from EXE-00.toc completed successfully.
+21949 INFO: Build complete! The results are available in: C:\Users\Mieux\Documents\python\dist
+
+C:\Users\Mieux\Documents\python>
+

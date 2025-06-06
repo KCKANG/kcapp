@@ -1,0 +1,16 @@
+timezone=Asia/Jakarta
+window_width=100
+window_height=130
+background_color=black
+foreground_color=lime
+transparent_color=black
+opacity=0.85
+follow_mouse=True
+show_exit_button=True
+digital_clock=True
+font_name=arial.ttf
+font_size=10
+ntp_sync=True
+ntp_server=pool.ntp.org
+show_exit_button=True
+update_check_url=https://yourdomain.com/romanclock/version.txt

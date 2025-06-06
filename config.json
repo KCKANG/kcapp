@@ -1,0 +1,10 @@
+{
+    "window_width": 400,
+    "window_height": 400,
+    "digital_clock": true,
+    "foreground_color": "lime",
+    "background_color": "black",
+    "font_size": 20,
+    "follow_mouse": false,
+    "show_exit_button": true
+}

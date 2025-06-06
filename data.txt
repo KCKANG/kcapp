@@ -1,0 +1,148 @@
+python -m pyinstaller --noconsole --onefile --windowed rortc.py
+
+pyinstaller --noconsole --onefile --windowed --add-data "config.txt;." rrtctw.py
+
+pyinstaller rrtctw.py --onefile --windowed --add-data "config.txt;."
+
+//   ******buid .exe ******
+python -m PyInstaller rrtctW.py --onefile --windowed
+
+
+
+cd C:\Users\Mieux\Documents\python
+
+//*********build add-config*****
+C:\Users\Mieux\AppData\Roaming\Python\Python313\Scripts\pyinstaller.exe rrtctw.py --onefile --windowed --add-data "config.txt;."
+
+//*********build add-icon.txt*****
+
+C:\Users\Mieux\AppData\Roaming\Python\Python313\Scripts\pyinstaller --noconfirm --onefile --windowed --icon=clock.ico rrtctw.py
+
+
+pyinstaller --onefile --windowed --add-data "config.txt;." --noconsole rrtctw.py
+
+pyinstaller --onefile --windowed --add-data "config.txt;." --noconsole rrtctw.py
+
+
+python -m PyInstaller rrtctw.py --onefile --add-data "config.txt;."  --windowed
+
+python -m pyinstaller --onefile --windowed --add-data "config.txt;." --noconsole rrtctw.py
+
+python -m pyinstaller --onefile --windowed --add-data "config.txt;." --noconsole rrtctw.py
+
+cd C:\Users\Mieux\Documents\python
+
+
+C:\Users\Mieux\AppData\Roaming\Python\Python313\Scripts
+
+
+pyinstaller --noconsole --onefile --windowed srtc.py
+python -m pyinstaller --noconsole --onefile --windowed srtc.py
+
+
+
+
+pyinstaller --noconsole --onefile --windowed --distpath=C:\Users\kokchoon\Documents\python\dist --workpath=C:\Users\Mieux\Documents\python\build srtc.py
+
+
+
+python -m pyinstaller --noconsole --onefile --windowed --distpath=C:\Users\kokchoon\Documents\python\dist --workpath=C:\Users\Mieux\Documents\python\build srtc.py
+
+
+pyinstaller --noconsole --onefile --windowed srtc.py --specpath C:\Users\Mieux\Documents\python\spec --workpath C:\Users\Mieux\Documents\python\build --distpath C:\Users\Mieux\Documents\python\dist
+
+
+
+
+
+'pyinstaller' is not recognized as an internal or external command,
+operable program or batch file. what dose this mean "pyinstaller " not install yet ? 
+
+
+ChatGPT 说：
+The error message 'pyinstaller' is not recognized as an internal or external command, operable program or batch file. indicates that the system cannot find the pyinstaller executable. This typically happens due to one of the following reasons:
+
+✅ Step 1: Verify PyInstaller Installation
+First, ensure that PyInstaller is installed in your current Python environment. Open your command prompt and run:
+
+bash
+Copy
+Edit
+pip show pyinstaller
+If PyInstaller is installed, this command will display details about the installation. If it's not installed, you can install it using:
+
+bash
+Copy
+Edit
+pip install pyinstaller
+✅ Step 2: Check Environment Variables
+Even if PyInstaller is installed, the system might not recognize the pyinstaller command if the Scripts directory of your Python installation isn't added to the system's PATH environment variable.
+
+To add the Scripts directory to your PATH:
+
+Locate the Scripts Directory: Typically, it's located at:
+
+makefile
+Copy
+Edit
+C:\Users\YourUsername\AppData\Roaming\Python\Python313\Scripts
+Add to System PATH:
+
+Press Win + R, type sysdm.cpl, and press Enter.
+
+In the System Properties window, go to the Advanced tab and click on Environment Variables.
+
+Under System variables, find and select the Path variable, then click Edit.
+
+Click New and add the path to the Scripts directory.
+
+Click OK to close all dialogs.
+
+Restart Command Prompt: Close and reopen your command prompt to apply the changes.
+
+✅ Step 3: Use PyInstaller via Python Module
+If you prefer not to modify environment variables, you can run PyInstaller using Python's -m option:
+
+bash
+Copy
+Edit
+
+
+
+
+
+This approach directly invokes PyInstaller as a module, bypassing the need for the pyinstaller command to be recognized system-wide.
+
+✅ Step 4: Use the Full Path to PyInstaller
+Alternatively, you can execute PyInstaller by specifying its full path:
+
+bash
+Copy
+Edit
+C:\Users\YourUsername\AppData\Roaming\Python\Python313\Scripts\pyinstaller.exe your_script.py --onefile --windowed
+Replace YourUsername with your actual Windows username.
+cloud.tencent.com
+
+By following these steps, you should be able to resolve the 'pyinstaller' is not recognized error and successfully create executable files from your Python scripts.
+
+
+
+
+ config = {
+         "digital_clock": True,              # Show digital time
+         "foreground_color": "white",        # Text color
+         "background_color": "black",        # Background color
+         "font_size": 10,                    # Font size for digital time
+         "window_size": 100,                 # Size of the canvas (optional, if needed)
+         "transparent": False,               # Only needed if you added transparency
+         "always_on_top": True,               # Optional
+         "follow_mouse": False,
+         "show_exit_button": True             # or False if you want it hidden
+		 
+		 
+		 
+		 ////////////////////////
+		 
+		 convert to .csv
+		 
+		 /home/kckang70/pdf_venv/bin/python
